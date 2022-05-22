@@ -1,6 +1,13 @@
-:root {
-    margin:0;
-    padding:0;
-    color: #34718C;
-    background-color: #212529;
+@import "_variables.css";
+
+html,
+html.dark {
+    color: var(--blue);
+    background-color: var(--dark-grey);
 }
+
+html.light {
+    color: var(--green);
+    background-color: var(--light-grey);
+}
+

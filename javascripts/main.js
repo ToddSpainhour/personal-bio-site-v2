@@ -1,1 +1,21 @@
-console.log("If you see this in the console, you're connected");
+
+const colorThemeChange = (selectedColorTheme) => {
+    let htmlElement = document.getElementsByTagName('html')[0];
+    htmlElement.className = selectedColorTheme
+}
+
+
+const AddEventListeners = () => {
+    const colorThemeButtons = document.getElementsByClassName("colorThemebtn")
+    colorThemeButtons.forEach(button => {
+        button.addEventListener('click', colorThemeChange)
+    });
+}
+
+
+const init = () => {
+    AddEventListeners();
+}
+
+
+init();
