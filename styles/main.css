@@ -1,6 +1,9 @@
 @import "_variables.css";
 
-html,
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
 html.dark {
     color: var(--blue);
     background-color: var(--dark-grey);
@@ -11,3 +14,6 @@ html.light {
     background-color: var(--light-grey);
 }
 
+h1 {
+    font-size: 8vw;
+}

@@ -1,21 +1,23 @@
 
-const colorThemeChange = (selectedColorTheme) => {
+const changeColorTheme = (selectedColorTheme) => {
     let htmlElement = document.getElementsByTagName('html')[0];
     htmlElement.className = selectedColorTheme
 }
 
+const addColorThemeClickEvents = () => {
+    const colorThemeButtons = document.querySelectorAll("colorThemebtn");
 
-const AddEventListeners = () => {
-    const colorThemeButtons = document.getElementsByClassName("colorThemebtn")
     colorThemeButtons.forEach(button => {
-        button.addEventListener('click', colorThemeChange)
-    });
-}
+        button.addEventListener('click', changeColorTheme);
+    })
+} 
 
+const addClickEvents = () => {
+    addColorThemeClickEvents();
+}
 
 const init = () => {
-    AddEventListeners();
+    addClickEvents();
 }
-
 
 init();
