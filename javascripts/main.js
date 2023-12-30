@@ -1,3 +1,4 @@
+import * as cardBuilder from "./cardBuilder.js";
 
 const changeColorTheme = (selectedColorTheme) => {
     let htmlElement = document.getElementsByTagName('html')[0];
@@ -16,8 +17,13 @@ const addClickEvents = () => {
     addColorThemeClickEvents();
 }
 
+const printCards = () => {
+    cardBuilder.buildWorkHistoryCards();
+}
+
 const init = () => {
     addClickEvents();
+    printCards();
 }
 
 init();
