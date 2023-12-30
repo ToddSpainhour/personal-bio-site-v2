@@ -31,14 +31,21 @@ nav h1 {
 
 ul {
     padding-left: 3rem;
-    list-style-type: circle;
+    list-style-type: disc;
 }
 
+
 .work-history-section {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.work-history-card {
+    background-color: var(--light-grey);
+    margin: 2rem;
+    padding: 2rem;
+    width: 90%;
 }
 
 details {
