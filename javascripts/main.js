@@ -1,23 +1,31 @@
+import * as cardBuilder from "./cardBuilder.js";
 
-const changeColorTheme = (selectedColorTheme) => {
-    let htmlElement = document.getElementsByTagName('html')[0];
-    htmlElement.className = selectedColorTheme
-}
 
-const addColorThemeClickEvents = () => {
-    const colorThemeButtons = document.querySelectorAll("colorThemebtn");
+// const changeColorTheme = (selectedColorTheme) => {
+//         let htmlElement = document.getElementsByTagName('html')[0];
+//         htmlElement.className = selectedColorTheme
+// }
 
-    colorThemeButtons.forEach(button => {
-        button.addEventListener('click', changeColorTheme);
-    })
-} 
+// const addColorThemeClickEvents = () => {
+//     const colorThemeButtons = document.querySelectorAll("button.colorThemebtn");
+
+//     colorThemeButtons.forEach(button => {
+//         button.addEventListener('click', changeColorTheme);
+//     })
+// } 
 
 const addClickEvents = () => {
-    addColorThemeClickEvents();
+    //addColorThemeClickEvents();
+}
+
+const printCards = () => {
+    cardBuilder.buildWorkHistoryCards();
+    cardBuilder.buildEducationCards();
 }
 
 const init = () => {
-    addClickEvents();
+    //addClickEvents();
+    printCards();
 }
 
 init();

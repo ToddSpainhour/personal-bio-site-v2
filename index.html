@@ -8,11 +8,28 @@
     <title>Todd Spainhour</title>
 </head>
 <body>
-    <main>
+    <nav>
         <h1>Todd Spainhour</h1>
-        <button class="colorThemebtn" onclick="changeColorTheme('light')">Light Mode</button>
-        <button class="colorThemebtn" onclick="changeColorTheme('dark')">Dark Mode</button>
+        <navitem><p>About Me</p></navitem>
+        <navItem><p>Work History</p></navItem>
+        <navItem><p>Contact</p></navItem>
+        <!-- <button class="colorThemebtn" value="light">Light Mode</button>
+        <button class="colorThemebtn" value="dark">Dark Mode</button> -->
+    </nav>
+    <main>
+        <section class="work-history-section">
+            <div class="section-title-container">
+                <h2 class="section-title">Work History</h3>
+            </div>
+            <div id="work-history-container"></div>       
+        </section>
+        <section class="education-section">
+            <div class="section-title-container">
+                <h2 class="section-title">Education</h3>
+            </div>
+            <div id="education-container"></div>
+        </section>
     </main>
-    <script src="javascripts/main.js"></script>
+    <script src="javascripts/main.js" type="module"></script>
 </body>
 </html>
