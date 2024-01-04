@@ -4,7 +4,7 @@ export const educationData = [
     {
         "degreeName": "Master of Science in Software Engineering",
         "schoolName": "Kennesaw State University",
-        "yearsAttended": "2023-Present",
+        "yearsAttended": "2023-Present; Expected Graduation Date December 2024",
         "schoolLogo": "",
         "displayOnPage": true
     },

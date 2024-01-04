@@ -2,10 +2,11 @@
 export const workHistoryData = [
 
     {
-        "title": "Software Developer",
-        "organization": "Rutherford County Government",
+        "jobTitle": "Software Developer",
+        "organizationName": "Rutherford County Government",
         "dateRange": "2021-Current",
-        "organizationLogo": "",
+        "organizationLocation": "Murfreesboro, TN",
+        "organizationLogo": "https://sos.tn.gov/themes/custom/sostngov_bootstrap4/images/tri_star.png",
         "jobDetails": [
             "job responsibility 1", 
             "job responsibility 2",
@@ -20,10 +21,11 @@ export const workHistoryData = [
     },
 
     {
-        "title": "Creative Media Producer",
-        "organization": "Tennessee Department of State",
+        "jobTitle": "Creative Media Producer",
+        "organizationName": "Tennessee Department of State",
         "dateRange": "2015-2021",
-        "organizationLogo": "",
+        "organizationLocation": "Nashville, TN",
+        "organizationLogo": "https://sos.tn.gov/themes/custom/sostngov_bootstrap4/images/tri_star.png",
         "jobDetails": [
             "job responsibility 1", 
             "job responsibility 2",
@@ -36,10 +38,11 @@ export const workHistoryData = [
     },
 
     {
-        "title": "Digital Imaging Specialist",
-        "organization": "Tennessee State Library and Archives",
+        "jobTitle": "Digital Imaging Specialist",
+        "organizationName": "Tennessee State Library and Archives",
         "dateRange": "2011-2015",
-        "organizationLogo": "",
+        "organizationLocation": "Nashville, TN",
+        "organizationLogo": "https://sos.tn.gov/themes/custom/sostngov_bootstrap4/images/tri_star.png",
         "jobDetails": [
             "job responsibility 1", 
             "job responsibility 2",
@@ -51,10 +54,11 @@ export const workHistoryData = [
     },
 
     {
-        "title": "News Photojournalist",
-        "organization": "News 12 WRDW-TV",
+        "jobTitle": "News Photojournalist",
+        "organizationName": "News 12 WRDW-TV",
         "dateRange": "2008-2010",
-        "organizationLogo": "",
+        "organizationLocation": "Augusta, GA",
+        "organizationLogo": "https://upload.wikimedia.org/wikipedia/en/4/47/Wrdw_tv_logo.PNG?20160524034133",
         "jobDetails": [
             "job responsibility 1", 
             "job responsibility 2",
@@ -65,10 +69,11 @@ export const workHistoryData = [
     },
 
     {
-        "title": "31R - Multichannel Transmission Systems Operator",
-        "organization": "United States Army",
+        "jobTitle": "31R - Multichannel Transmission Systems Operator",
+        "organizationName": "United States Army",
         "dateRange": "1999-2003",
-        "organizationLogo": "",
+        "organizationLocation": "Fort Bragg, NC",
+        "organizationLogo": "https://media.defense.gov/2020/Mar/10/2002265419/-1/-1/0/200310-A-UM169-001.PNG",
         "jobDetails": [
             "job responsibility 1", 
             "job responsibility 2",
