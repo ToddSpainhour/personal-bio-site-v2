@@ -9,6 +9,17 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+main {
+    font-family: Verdana, sans-serif;
+    background-color: ghostwhite;
+    color: slategrey;
+    background: ghostwhite;
+    background-image: linear-gradient(white .1em, transparent .1em), linear-gradient(90deg, white .1em, transparent .1em);
+    background-size: 3em 3em;
+    display: flex;
+    flex-direction: column;
+}
+
 html.dark {
     color: var(--blue);
     background-color: var(--dark-grey);
@@ -29,39 +40,84 @@ nav h1 {
     color: var(--blue);
 }
 
-ul {
-    padding-left: 3rem;
-    list-style-type: disc;
-}
-
-
-.work-history-section {
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.work-history-card {
-    background-color: var(--light-grey);
+section {
+    width: 75%;
+    /* background-color: var(--light-grey); */
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    padding-left: 3rem;
+    list-style-type: disc;
+}
+
+.section-title-container {
+    background-color: var(--red);
+    width: 100%;
+}
+
+.section-title {
+    color: var(--light-grey);
+    font-style: italic;
+}
+
+.card {
+    background-color: white;
     margin: 2rem;
-    padding: 2rem;
-    width: 90%;
+    padding: 20px;
+    box-shadow: 0 10px 20px -15px black;
 }
 
-details {
-    justify-content: center;
+.card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--light-grey);
 }
 
-.job-details {
-    padding: 0rem 0rem 2rem 2rem;
+.company-logo {
+    width: 50px;
+    padding-right: 20px;
+}
+
+.organization-name {
+    /* background-color: red; */
+    width: 100%;
+    color: var(--blue);
+}
+
+.job-title-container{
+    width: 100%;
+    display: flex;
+    justify-content: end;
 }
 
 .job-title {
-    justify-content: center;
-    color:var(--blue);
+    display: flex;
+    /* background-color: pink; */
+    justify-content:flex-end;
+    width: 75%;
+    color: var(--red);
+    font-style: italic;
 }
 
-.employer-name {
-color: var(--blue);
+.date-and-location-container {
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    padding-top: 20px;
+    color: var(--light-grey)
+}
+
+.date-range {
+    padding-right: 20px;
 }
 
